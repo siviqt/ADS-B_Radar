@@ -1,0 +1,1 @@
+{"ac":[{"hex":"ABC123","flight":"TEST123 ","lat":0,"lon":0,"alt_baro":12000,"gs":250,"track":90,"squawk":"7700"},{"hex":"abc123","lat":1,"lon":1},{"hex":"bad","lat":12,"lon":34},{"hex":"000001","lon":34},{"hex":"000002","lat":91,"lon":0},{"hex":"000003","lat":-33,"lon":151,"alt_baro":"ground"}]}

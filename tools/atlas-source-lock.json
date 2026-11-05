@@ -1,0 +1,42 @@
+{
+  "admin1CodesASCII.txt": {
+    "sha256": "1da92a6323a5fec3176f3f743bf4cf4040fd56a876da55e46fbca23c863aa60a",
+    "url": "https://download.geonames.org/export/dump/admin1CodesASCII.txt"
+  },
+  "alternateNamesV2.zip": {
+    "sha256": "5dc235aba7adca5290dd4f98b28b1a3534e1dbe97f4c5732323bcac865d535d1",
+    "url": "https://download.geonames.org/export/dump/alternateNamesV2.zip"
+  },
+  "borders.geojson": {
+    "sha256": "74d9c16229c095fde65943a9919e337682f044bcebccb120764f38edf3b70f4a",
+    "url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_admin_0_boundary_lines_land.geojson"
+  },
+  "cities500.zip": {
+    "sha256": "fedf197c2b4aabffe5941ff85be5c5bd101b85ea00547547d3326e21df63ccce",
+    "url": "https://download.geonames.org/export/dump/cities500.zip"
+  },
+  "countryInfo.txt": {
+    "sha256": "c55f638cfaafb4fe45a9aa15120a0f1f78e8a34a8e1847d7b9320cf740fbc9ab",
+    "url": "https://download.geonames.org/export/dump/countryInfo.txt"
+  },
+  "lakes.geojson": {
+    "sha256": "2d036f53dedec578001c5c30c2959ee7d4eebc1306900fa4367c49929ec8f2d9",
+    "url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_lakes.geojson"
+  },
+  "land.geojson": {
+    "sha256": "1ac90796408bc6ad6911d69448485d3c4dbf2190370080368a09976e1c9f7416",
+    "url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_land.geojson"
+  },
+  "places.geojson": {
+    "sha256": "9b8e3de09048ef00dfc70357dbb9fa324493f214b5e0ae4daf1aa79a8d10116b",
+    "url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_populated_places.geojson"
+  },
+  "rivers.geojson": {
+    "sha256": "bb854a900ecbd3b408df46d5e16e3e0f974ba55993f9d8b5c26e855273c0905a",
+    "url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_rivers_lake_centerlines.geojson"
+  },
+  "roads.geojson": {
+    "sha256": "66a0c7b438e92fd124822cc5921cfa11042f48c294ade5e0f03f2c6640fd0248",
+    "url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_roads.geojson"
+  }
+}

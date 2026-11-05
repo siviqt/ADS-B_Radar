@@ -1,0 +1,143 @@
+{
+  "description": "Information about an application package",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "Name of the application",
+      "maxLength": 128,
+      "minLength": 3,
+      "pattern": "^[A-Za-z0-9_\\- .!@#$%^&*()\\/\\\\]+$"
+    },
+    "description": {
+      "type": "string",
+      "description": "A short description of the app",
+      "maxLength": 256,
+      "minLength": 0,
+      "pattern": "^[A-Za-z0-9_\\- .!@#$%^&*()\\/\\\\]+$"
+    },
+    "repository_url": {
+      "type": "string",
+      "description": "URL of the repository containing the source code of the app"
+    },
+    "categories": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "version": {
+      "type": "string",
+      "description": "Semantic version of the application package"
+    },
+    "icon": {
+      "type": "object",
+      "properties": {
+        "16x16": {
+          "type": "string"
+        },
+        "32x32": {
+          "type": "string"
+        },
+        "64x64": {
+          "type": "string"
+        }
+      },
+      "minProperties": 1,
+      "additionalProperties": true
+    },
+    "author": {
+      "description": "Author of the app",
+      "type": "string"
+    },
+    "license_type": {
+      "description": "License of the app as SPDX license identifier",
+      "type": "string"
+    },
+    "license_file": {
+      "description": "Filename for a license text file",
+      "type": "string"
+    },
+    "application": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "targets": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "type": {
+            "type": "string"
+          },
+          "revision": {
+            "type": "integer"
+          },
+          "bsp_version": {
+            "description": "Major BSP version used to build this application, used to indicate support for newer hardware",
+            "type": "integer"
+          },
+          "executable": {
+            "type": "string"
+          },
+          "interpreter": {
+            "type": "string"
+          },
+          "assets": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "source_file": {
+                  "type": "string"
+                },
+                "target_file": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "source_file",
+                "target_file"
+              ]
+            }
+          },
+          "external_only": {
+            "description": "When true, only allow installation onto external storage media (not internal memory)",
+            "type": "boolean"
+          },
+          "external_preferred": {
+            "description": "When true, prefer installation onto external storage media",
+            "type": "boolean"
+          },
+          "internal_only": {
+            "description": "When true, only allow installation onto internal storage",
+            "type": "boolean"
+          },
+          "internal_preferred": {
+            "description": "When true, prefer installation onto internal storage",
+            "type": "boolean"
+          }
+        },
+        "additionalProperties": false,
+        "required": [
+          "targets",
+          "type"
+        ]
+      },
+      "minItems": 1
+    }
+  },
+  "required": [
+    "name",
+    "description",
+    "categories",
+    "version",
+    "icon",
+    "author",
+    "license_type",
+    "application"
+  ],
+  "additionalProperties": false
+}

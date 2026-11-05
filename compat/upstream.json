@@ -1,0 +1,9 @@
+{
+  "component": "badgeteam/badge-bsp",
+  "version": "2.0.0",
+  "repository": "https://github.com/badgeteam/esp32-component-badge-bsp",
+  "source": "targets/tanmatsu/badge_bsp_display.c",
+  "upstream_sha256": "92093d950441ff7fb50dd30ee5ea98040e241307013bec1e09ce2502d486670a",
+  "patched_sha256": "506ec20f3b98ef263d0f1ceb6a277769e38bbaa93fad820841337cb7b7c9717a",
+  "change": "Return st7701_initialize() errors instead of discarding them and returning ESP_OK."
+}

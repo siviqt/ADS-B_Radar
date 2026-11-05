@@ -1,0 +1,5 @@
+{
+  "tool": "built-in image_gen",
+  "name": "synthwave",
+  "prompt": "Use case: logo-brand. Asset type: square launcher icon for an ADS-B aircraft tracking app. Create ONE finished icon, not a presentation or sheet. Designed to downsample cleanly to 64, 32 and 16 pixels: very bold simple silhouette, thick shapes, minimal detail, no text, no letters, no watermark, no mockup, no outer margins. Flat vector-like raster artwork, crisp edges, strong contrast. Full-bleed opaque square background. Variant 1: Tanmatsu-inspired synthwave. Deep plum #340132 background. A large unmistakable top-down passenger aircraft silhouette in luminous pale teal, pointing diagonally upper right, across a simple hot-pink #FF017F sunset disc with just two broad plum horizontal gaps in its lower half. One minimal teal #01BC99 radar arc echoes the aircraft tracking theme. Small warm-yellow #FFCF53 accent in sun. Aircraft is the dominant foreground shape. Compact, geometric, retro futuristic, restrained neon without fuzzy glow. Icon fills about 85 percent of canvas."
+}

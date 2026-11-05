@@ -1,0 +1,36 @@
+{
+  "version": "0.3.2",
+  "revision": 11,
+  "bsp_version": 2,
+  "status": "accepted",
+  "components": {
+    "idf": "6.0.2",
+    "lvgl": "9.2.2",
+    "bsp": "2.0.0",
+    "mipi_dsi": "2.0.0"
+  },
+  "firmware": {
+    "bytes": 1473568,
+    "appfs_allocation_bytes": 1507328,
+    "image_limit_bytes": 2097152,
+    "sha256": "e3ecba566f476f64a47dda528a4a2dd48bb709a611389a2b6103fd74663f0c23"
+  },
+  "software_checks": {
+    "host_tests": {
+      "status": "passed",
+      "count": 19
+    },
+    "rotation": "passed",
+    "native_build": "passed",
+    "clean_build": "passed",
+    "firmware_and_configuration_reproducible": true,
+    "package_validation": "passed"
+  },
+  "hardware": {
+    "status": "passed",
+    "date": "2026-11-01",
+    "evidence_type": "user-reported",
+    "statement": "Tests on the hardware are a pass.",
+    "scope": "Overall acceptance reported by the user; per-test counts, durations and additional display variants were not individually reported."
+  }
+}
